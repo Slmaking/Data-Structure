@@ -1,6 +1,6 @@
 # ST implementations: summary
 
-| Implementation                        | Worst-case cost (after N inserts) | Average case (after N random inserts) | | | Ordered iteration? | Key interface |
+| Implementation                        | Worst-case cost (after N inserts) | | | Average case (after N random inserts) | | | Ordered iteration? | Key interface |
 | ------------------------------------- |:---------------------------------:|:---:|:---:|:---------------------------------------:|:---:|:---:|:-----------------:|:-------------:|
 |                                       | search | insert | delete | search hit | insert | delete |                   |                 |
 | Sequential search (unordered list)    | N      | N      | N      | N/2        | N      | N/2    | no                | `equals()`      |
@@ -10,4 +10,3 @@
 | Red-black BST                         | 2 lg N | 2 lg N | 2 lg N | 1.00 lg N* | 1.00 lg N* | 1.00 lg N* | yes               | `compareTo()`   |
 
 \* exact value of coefficient unknown but extremely close to 1
-
