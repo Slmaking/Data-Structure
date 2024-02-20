@@ -22,4 +22,4 @@
 | Merge       |          | ✔️      | N lg N      | N lg N      | N lg N     | N log N guarantee, stable    |
 | Quick       | ✔️       |         | N / 2       | 2 N ln N    | N lg N     | Fastest in practice          |
 | 3-way Quick | ✔️       |         | N / 2       | 2 N ln N    | N          | Improves quicksort in presence of duplicate keys |
-| ???         | ✔️       | ✔️      | N lg N      | N lg N      | N lg N     | Holy sorting grail           |
+| Ideal         | ✔️       | ✔️      | N lg N      | N lg N      | N lg N     | Holy sorting grail           |
