@@ -33,40 +33,40 @@ Focuses on advanced topics in graph theory and string processing, including:
 # Data Structures and Algorithms
 
  <h2>Data Structures and Algorithms Summary</h2>
-    <table>
-        <tr>
-            <th>Topic</th>
-            <th>Data Structures and Algorithms</th>
-            <th>Part</th>
-        </tr>
-        <tr>
-            <td>Data Types</td>
-            <td>stack, queue, bag, union-find, priority queue</td>
-            <td rowspan="3">Part 1</td>
-            
-        </tr>
-        <tr>
-            <td>Sorting</td>
-            <td>quicksort, mergesort, heapsort</td>
-        </tr>
-        <tr>
-            <td>Searching</td>
-            <td>BST, red-black BST, hash table</td>
-        </tr>
-        <tr>
-            <td>Graphs</td>
-            <td>BFS, DFS, Prim, Kruskal, Dijkstra</td>
-            <td rowspan="6">Part 2</td>
-        </tr>
-        <tr>
-            <td>Strings</td>
-            <td>radix sorts, tries, KMP, regexps, data compression</td>
-        </tr>
-        <tr>
-            <td>Advanced</td>
-            <td>B-tree, suffix array, maxflow</td>
-        </tr>
-    </table>
+<table>
+    <tr>
+        <th>Topic</th>
+        <th>Data Structures and Algorithms</th>
+        <th>Part</th>
+    </tr>
+    <tr>
+        <td>Data Types</td>
+        <td>stack, queue, bag, union-find, priority queue</td>
+        <td rowspan="3">Part 1</td>
+    </tr>
+    <tr>
+        <td>Sorting</td>
+        <td>quicksort, mergesort, heapsort</td>
+    </tr>
+    <tr>
+        <td>Searching</td>
+        <td>BST, red-black BST, hash table</td>
+    </tr>
+    <tr>
+        <td>Graphs</td>
+        <td>BFS, DFS, Prim, Kruskal, Dijkstra</td>
+        <td rowspan="3">Part 2</td>
+    </tr>
+    <tr>
+        <td>Strings</td>
+        <td>radix sorts, tries, KMP, regexps, data compression</td>
+    </tr>
+    <tr>
+        <td>Advanced</td>
+        <td>B-tree, suffix array, maxflow</td>
+    </tr>
+</table>
+
 
 
 
