@@ -68,8 +68,6 @@ Focuses on advanced topics in graph theory and string processing, including:
         </tr>
     </table>
 
-</body>
-</html>
 
 
 ## Usage
