@@ -66,6 +66,8 @@ Focuses on advanced topics in graph theory and string processing, including:
         <td>B-tree, suffix array, maxflow</td>
     </tr>
 </table>
+
+
 ## Sorting models comaparision
 
 <table border="1">
