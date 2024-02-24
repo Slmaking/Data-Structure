@@ -32,14 +32,44 @@ Focuses on advanced topics in graph theory and string processing, including:
 
 # Data Structures and Algorithms
 
-| Topic     | Data Structures and Algorithms | Part |
-|-----------|--------------------------------|------|
-| Data Types | stack, queue, bag, union-find, priority queue | Part 1 |
-| Sorting    | quicksort, mergesort, heapsort | Part 1 |
-| Searching  | BST, red-black BST, hash table | Part 1 |
-| Graphs     | BFS, DFS, Prim, Kruskal, Dijkstra | Part 2 |
-| Strings    | radix sorts, tries, KMP, regexps, data compression | Part 2 |
-| Advanced   | B-tree, suffix array, maxflow | Part 2 |
+ <h2>Data Structures and Algorithms Summary</h2>
+    <table>
+        <tr>
+            <th>Topic</th>
+            <th>Data Structures and Algorithms</th>
+            <th>Part</th>
+        </tr>
+        <tr>
+            <td>Data Types</td>
+            <td>stack, queue, bag, union-find, priority queue</td>
+            <td rowspan="4">Part 1</td>
+        </tr>
+        <tr>
+            <td>Sorting</td>
+            <td>quicksort, mergesort, heapsort</td>
+        </tr>
+        <tr>
+            <td>Searching</td>
+            <td>BST, red-black BST, hash table</td>
+        </tr>
+        <tr>
+            <td>Graphs</td>
+            <td>BFS, DFS, Prim, Kruskal, Dijkstra</td>
+        </tr>
+        <tr>
+            <td>Strings</td>
+            <td>radix sorts, tries, KMP, regexps, data compression</td>
+            <td>Part 2</td>
+        </tr>
+        <tr>
+            <td>Advanced</td>
+            <td>B-tree, suffix array, maxflow</td>
+            <td>Part 2</td>
+        </tr>
+    </table>
+
+</body>
+</html>
 
 
 ## Usage
