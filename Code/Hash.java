@@ -37,3 +37,31 @@ long bits = doubleToLongBits(value);
 return (int) (bits ^ (bits >>> 32));
 }
 }
+
+$$Boolean
+
+public final class Boolean
+{
+private final boolean value;
+...
+public int hashCode()
+{
+if (value) return 1231;
+else return 1237;
+}
+}
+
+$$String
+
+public final class String
+{
+private final char[] s;
+...
+public int hashCode()
+{
+int hash = 0;
+for (int i = 0; i < length(); i++)
+hash = s[i] + (31 * hash);
+return hash;
+}
+}
