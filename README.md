@@ -184,8 +184,8 @@ Focuses on advanced topics in graph theory and string processing, including:
             <td>Shell</td>
             <td>✔️</td>
             <td></td>
-            <td>?</td>
-            <td>?</td>
+            <td>N^2</td>
+            <td>n^1.25</td>
             <td>N</td>
             <td>Tight code, subquadratic</td>
         </tr>
