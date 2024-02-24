@@ -148,35 +148,11 @@ Focuses on advanced topics in graph theory and string processing, including:
 <p>* exact value of coefficient unknown but extremely close to 1</p>
 
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Sorting Summary</title>
-    <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        table, th, td {
-            border: 1px solid black;
-        }
-        th, td {
-            padding: 8px;
-            text-align: left;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-    </style>
-</head>
-<body>
 
 
 ## Sorting Algorithm Summary
 
 
-    <h2>Sorting Summary</h2>
     <table>
         <tr>
             <th>Algorithm</th>
