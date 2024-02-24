@@ -30,6 +30,18 @@ Focuses on advanced topics in graph theory and string processing, including:
 - Compression and Encoding Algorithms
 - Reductions and Intractability
 
+# Data Structures and Algorithms
+
+| Topic     | Data Structures and Algorithms | Part |
+|-----------|--------------------------------|------|
+| Data Types | stack, queue, bag, union-find, priority queue | Part 1 |
+| Sorting    | quicksort, mergesort, heapsort | Part 1 |
+| Searching  | BST, red-black BST, hash table | Part 1 |
+| Graphs     | BFS, DFS, Prim, Kruskal, Dijkstra | Part 1 |
+| Strings    | radix sorts, tries, KMP, regexps, data compression | Part 2 |
+| Advanced   | B-tree, suffix array, maxflow | Part 2 |
+
+
 ## Usage
 
 Each directory within this repository corresponds to a specific topic or algorithm and contains both Java and Python implementations. Detailed README files are provided in each directory to explain the concepts, applications, and performance analysis of the implementations.
