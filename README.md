@@ -37,7 +37,7 @@ Focuses on advanced topics in graph theory and string processing, including:
 | Data Types | stack, queue, bag, union-find, priority queue | Part 1 |
 | Sorting    | quicksort, mergesort, heapsort | Part 1 |
 | Searching  | BST, red-black BST, hash table | Part 1 |
-| Graphs     | BFS, DFS, Prim, Kruskal, Dijkstra | Part 1 |
+| Graphs     | BFS, DFS, Prim, Kruskal, Dijkstra | Part 2 |
 | Strings    | radix sorts, tries, KMP, regexps, data compression | Part 2 |
 | Advanced   | B-tree, suffix array, maxflow | Part 2 |
 
