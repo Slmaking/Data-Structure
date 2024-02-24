@@ -66,6 +66,85 @@ Focuses on advanced topics in graph theory and string processing, including:
         <td>B-tree, suffix array, maxflow</td>
     </tr>
 </table>
+## Sorting models comaparision
+
+<table border="1">
+    <tr>
+        <th>Implementation</th>
+        <th colspan="3" style="text-align:center">Worst-case cost (after N inserts)</th>
+        <th colspan="3" style="text-align:center">Average case (after N random inserts)</th>
+        <th>Ordered iteration?</th>
+        <th>Key interface</th>
+    </tr>
+    <tr>
+        <td></td>
+        <td style="text-align:center">search</td>
+        <td style="text-align:center">insert</td>
+        <td style="text-align:center">delete</td>
+        <td style="text-align:center">search hit</td>
+        <td style="text-align:center">insert</td>
+        <td style="text-align:center">delete</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Sequential search (unordered list)</td>
+        <td>N</td>
+        <td>N</td>
+        <td>N</td>
+        <td>N/2</td>
+        <td>N</td>
+        <td>N/2</td>
+        <td>no</td>
+        <td><code>equals()</code></td>
+    </tr>
+    <tr>
+        <td>Binary search (ordered array)</td>
+        <td>lg N</td>
+        <td>N</td>
+        <td>N</td>
+        <td>lg N</td>
+        <td>N/2</td>
+        <td>N/2</td>
+        <td>yes</td>
+        <td><code>compareTo()</code></td>
+    </tr>
+    <tr>
+        <td>BST</td>
+        <td>N</td>
+        <td>N</td>
+        <td>N</td>
+        <td>1.39 lg N</td>
+        <td>1.39 lg N</td>
+        <td>sqrt(N)</td>
+        <td>yes</td>
+        <td><code>compareTo()</code></td>
+    </tr>
+    <tr>
+        <td>2-3 tree</td>
+        <td>c lg N</td>
+        <td>c lg N</td>
+        <td>c lg N</td>
+        <td>c lg N</td>
+        <td>c lg N</td>
+        <td>c lg N</td>
+        <td>yes</td>
+        <td><code>compareTo()</code></td>
+    </tr>
+    <tr>
+        <td>Red-black BST</td>
+        <td>2 lg N</td>
+        <td>2 lg N</td>
+        <td>2 lg N</td>
+        <td>1.00 lg N*</td>
+        <td>1.00 lg N*</td>
+        <td>1.00 lg N*</td>
+        <td>yes</td>
+        <td><code>compareTo()</code></td>
+    </tr>
+</table>
+<p>* exact value of coefficient unknown but extremely close to 1</p>
+
 
 
 
