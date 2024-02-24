@@ -152,8 +152,7 @@ Focuses on advanced topics in graph theory and string processing, including:
 
 ## Sorting Algorithm Summary
 
-
-    <table>
+<table>
         <tr>
             <th>Algorithm</th>
             <th>Inplace?</th>
@@ -226,10 +225,9 @@ Focuses on advanced topics in graph theory and string processing, including:
             <td>N lg N</td>
             <td>Holy sorting grail</td>
         </tr>
-    </table>
+ </table>
 
-</body>
-</html>
+
 
 
 
