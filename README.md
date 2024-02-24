@@ -43,7 +43,7 @@ Focuses on advanced topics in graph theory and string processing, including:
             <td>Data Types</td>
             <td>stack, queue, bag, union-find, priority queue</td>
             <td rowspan="3">Part 1</td>
-            <td rowspan="4-6">Part 2</td>
+            
         </tr>
         <tr>
             <td>Sorting</td>
@@ -56,16 +56,15 @@ Focuses on advanced topics in graph theory and string processing, including:
         <tr>
             <td>Graphs</td>
             <td>BFS, DFS, Prim, Kruskal, Dijkstra</td>
+            <td rowspan="6">Part 2</td>
         </tr>
         <tr>
             <td>Strings</td>
             <td>radix sorts, tries, KMP, regexps, data compression</td>
-            <td>Part 2</td>
         </tr>
         <tr>
             <td>Advanced</td>
             <td>B-tree, suffix array, maxflow</td>
-            <td>Part 2</td>
         </tr>
     </table>
 
