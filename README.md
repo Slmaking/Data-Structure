@@ -42,7 +42,8 @@ Focuses on advanced topics in graph theory and string processing, including:
         <tr>
             <td>Data Types</td>
             <td>stack, queue, bag, union-find, priority queue</td>
-            <td rowspan="4">Part 1</td>
+            <td rowspan="3">Part 1</td>
+            <td rowspan="4-6">Part 2</td>
         </tr>
         <tr>
             <td>Sorting</td>
