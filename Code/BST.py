@@ -123,3 +123,73 @@ class BST:
         return x
 
 
+    def floor(self, key):
+        x = self._floor(self.root, key)
+        if x is None:
+            return None
+        else:
+            return x.key
+
+    def _floor(self, x, key):
+        if x is None:
+            return None
+        cmp = (key > x.key) - (key < x.key)
+        if cmp == 0:
+            return x
+        if cmp < 0:
+            return self._floor(x.left, key)
+        t = self._floor(x.right, key)
+        if t is not None:
+            return t
+        else:
+            return x
+
+    def ceiling(self, key):
+        x = self._ceiling(self.root, key)
+        if x is None:
+            return None
+        else:
+            return x.key
+
+    def _ceiling(self, x, key):
+        if x is None:
+            return None
+        cmp = (key > x.key) - (key < x.key)
+        if cmp == 0:
+            return x
+        if cmp > 0:
+            return self._ceiling(x.right, key)
+        t = self._ceiling(x.left, key)
+        if t is not None:
+            return t
+        else:
+            return x
+
+    def select(self, rank):
+        return self._select(self.root, rank).key
+
+    def _select(self, x, rank):
+        if x is None:
+            return None
+        leftSize = self.size(x.left)
+        if leftSize > rank:
+            return self._select(x.left, rank)
+        elif leftSize < rank:
+            return self._select(x.right, rank - leftSize - 1)
+        else:
+            return x
+
+    def rank(self, key):
+        return self._rank(key, self.root)
+
+    def _rank(self, key, x):
+        if x is None:
+            return 0
+        cmp = (key > x.key) - (key < x.key)
+        if cmp < 0:
+            return self._rank(key, x.left)
+        elif cmp > 0:
+            return 1 + self.size(x.left) + self._rank(key, x.right)
+        else:
+            return self.size(x.left)
+
